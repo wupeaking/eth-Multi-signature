@@ -5,7 +5,7 @@
 This project demonstrates how to use the smart contract to implement Ethereum's multi-sign transfer function.
 
 The entire transfer process is as follows:
-
+```shell
 
 token ---transfer---> smart constract account -----------transfer-----------> 指定的账户
                          /|\        |                           /|\
@@ -13,7 +13,7 @@ token ---transfer---> smart constract account -----------transfer-----------> �
                           |        \|/  check sign               |
 sender--------------------|
 
-
+```
 
 
 main idea: 
@@ -27,6 +27,7 @@ main idea:
 Detailed analysis and introduction in my [blog](https://wupeaking.github.io/learn/solidity_mutli_sign/)
 
 ###queston
+
     If you have questions or ideas, you can file an issue or email directly.<wupeaking@gmail.com>
 
 [0]: ./README.md
